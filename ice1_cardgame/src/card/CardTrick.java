@@ -8,9 +8,9 @@ import java.util.Scanner;
  * asks the user to pick a card and searches the array of cards for the match to
  * the user's card. To be used as starting code in ICE 1
  * 
- * @author [Your Name]
+ * @author [Arpanjot Kaur Kharoud]
  * @version 1.0
- * @studentNumber [Your Student Number]
+ * @studentNumber [991720256]
  */
 public class CardTrick {
 
