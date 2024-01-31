@@ -8,9 +8,9 @@ import java.util.Scanner;
  * asks the user to pick a card and searches the array of cards for the match to
  * the user's card. To be used as starting code in ICE 1
  * 
- * @author [Arpanjot Kaur Kharoud]
+ * @author Arpanjot Kaur Kharoud
  * @version 1.0
- * @studentNumber [991720256]
+ * @studentNumber 991720256
  */
 public class CardTrick {
 
@@ -27,10 +27,13 @@ public class CardTrick {
             magicHand[i] = c;
         }
 
+        // Add the following lines to create a luckyCard
         // Add a lucky card (hard-coded)
         Card luckyCard = new Card();
-        luckyCard.setValue(2);
-        luckyCard.setSuit("Clubs");
+        luckyCard.setValue(7); // Change to your desired card number
+        luckyCard.setSuit("Diamonds"); // Change to your desired suit
+
+        // Replace the previous line where a lucky card was added
         magicHand[0] = luckyCard;
 
         // Ask the user for a card
